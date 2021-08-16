@@ -9,5 +9,8 @@ setup(
     author_email='byran@adgico.co.uk',
     license='MIT',
     packages=['sphinxjinja2'],
-    zip_safe=False
+    zip_safe=False,
+    install_requires=[
+        'Sphinx >= 3.0.4'
+    ]
 )
